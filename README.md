@@ -1,15 +1,27 @@
-# Education Data Analysis
+# Customer Behavior Analysis (Restaurant Dataset)
 
-This project analyzes education-related data to understand trends and patterns in educational systems.
+This project analyzes customer spending and tipping behavior using a real-world restaurant dataset.
+
+## Dataset
+The dataset contains:
+- Total bill
+- Tip
+- Gender
+- Smoking status
+- Day
+- Time (Lunch/Dinner)
+- Party size
 
 ## Objective
-To explore how education resources and performance change over time using real-world data.
+To understand:
+- Which days generate higher revenue
+- Whether customers tip more at lunch or dinner
 
-## Tools
-- Python
-- Pandas
-- Matplotlib
-- Google Colab
+## Methods
+- Data loading with pandas
+- Grouping and aggregation
+- Visualization using matplotlib
 
-## Status
-Currently in progress.
+## Key Findings
+- Weekend (Saturday & Sunday) has higher average spending
+- Dinner customers give higher tips than lunch customers
