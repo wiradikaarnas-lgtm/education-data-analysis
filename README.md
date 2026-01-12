@@ -1,27 +1,21 @@
-# Customer Behavior Analysis (Restaurant Dataset)
+# Customer Behavior Analysis
 
-This project analyzes customer spending and tipping behavior using a real-world restaurant dataset.
-
-## Dataset
-The dataset contains:
-- Total bill
-- Tip
-- Gender
-- Smoking status
-- Day
-- Time (Lunch/Dinner)
-- Party size
+This project analyzes customer spending and tipping behavior using a restaurant dataset.
 
 ## Objective
-To understand:
-- Which days generate higher revenue
-- Whether customers tip more at lunch or dinner
+To identify patterns in how customers spend and tip based on day of week and time (lunch/dinner).
 
-## Methods
-- Data loading with pandas
-- Grouping and aggregation
-- Visualization using matplotlib
+## Tools
+- Python (pandas, matplotlib)
+- Google Colab
+- GitHub
+
+## Dataset
+Public dataset from seaborn community repository: shows total bills, tips, day, and meal time.
 
 ## Key Findings
-- Weekend (Saturday & Sunday) has higher average spending
-- Dinner customers give higher tips than lunch customers
+1. Average spending is higher on weekends.
+2. Dinner time tends to have higher tips compared to lunch.
+
+## How to Run
+Open `customer_behavior_analysis.ipynb` in Google Colab.
